@@ -9,11 +9,25 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This design implements a 1-bit half adder using two logic gates:
+- XOR gate generates the SUM output
+- AND gate generates the CARRY output
+
+Inputs:
+- ui[0] → A
+- ui[1] → B
+
+Outputs:
+- uo[0] → SUM (A XOR B)
+- uo[1] → CARRY (A AND B)
 
 ## How to test
 
-Explain how to use your project
+Check with the following inputs:
+1. A=0, B=0, then sum=0, carry=0
+2. A=1, B=0, then sum=1, carry=0
+3. A=0, B=1, then sum=1, carry=0
+4. A=1, B=1, then sum=0, carry=1
 
 ## External hardware
 
